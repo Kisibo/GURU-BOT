@@ -79,4 +79,21 @@ watchFile(file, () => {
   unwatchFile(file)
   console.log(chalk.redBright("Update 'config.js'"))
   import(`${file}?update=${Date.now()}`)
+}
+
+// Sticker WM
+global.botname = 'The phillo-bot'
+global.premium = 'true'
+global.packname = 'phillo ┃ᴮᴼᵀ' 
+global.author = '@philokisibo254@gmail.com 
+global.multiplier = 69 
+global.maxwarn = '3' // máxima advertencias
+
+let file = fileURLToPath(import.meta.url)
+watchFile(file, () => {
+  unwatchFile(file)
+  console.log(chalk.redBright("Update 'config.js'"))
+  import(`${file}?update=${Date.now()}`)
 })
+
+${format(e)}
