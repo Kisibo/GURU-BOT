@@ -21,7 +21,17 @@ global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['BrunoSobrino']
-
+const settingsMenu = [
+    {title: "PM antispam block", env_var: "PM_ANTISPAM"},
+    {title: "Auto read all messages", env_var: "READ_MESSAGES"},
+    {title: "Auto read command messages", env_var: "READ_COMMAND"},
+    {title: "Auto read status updates", env_var: "AUTO_READ_STATUS"},
+    {title: "Admin sudo acces mode (group commands only)", env_var: "ADMIN_ACCESS"},
+    {title: "With & without handler mode", env_var: "MULTI_HANDLERS"},
+    {title: "Auto reject calls", env_var: "REJECT_CALLS"},
+    {title: "Always online", env_var: "ALWAYS_ONLINE"},
+    {title: "PM Auto blocker", env_var: "PMB_VAR"},
+    {title: "Disable bot in PM", env_var: "DIS_PM"}
 global.APIs = { // API Prefix
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz', 
@@ -52,8 +62,6 @@ global.premium = 'true'
 global.packname = '💝 Phillo⚡️💝 Created By 💝 Phillo²⁰²³ 💝' 
 global.author = '💝 Phillo²⁰²³ 💝' 
 global.fgsc = 'https://github.com/dinuwah/QUEEN-HENTAI' 
-global.fgyt = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
-global.fgpyp = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
 global.fglog = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg' 
 
 
