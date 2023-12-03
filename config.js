@@ -7,23 +7,20 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['254716838981', 'Phillo⚡️', true],
-  ['12104605375', '~ 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏', true], 
+  ['254716838981', 'phillo⚡️²⁰²³', true],
+  ['12104605375 ', '~ 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏', true], 
   [''] 
 ] //Number of owners
 
-//global.pairingNumber = "" //put your bot number here
-
-global.mods = ['254716838981'] 
-global.prems = ['254716838981']
-global.allowed = ['12104605375']
+global.mods = ['0716838981','0716838989'] 
+global.prems = ['0716838981', '0716838981', '0716838981']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
 global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
-global.lolkeysapi = ['GataDios']
+global.lolkeysapi = ['BrunoSobrino']
 
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -50,21 +47,22 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'Phillo⚡️Bot'
-global.premium = 'true','false'
-global.packname = 'Phillo⚡️' 
-global.author = '@Phillo⚡️' 
-global.fgsc = 'https://github.com/Guru322/GURU-BOT' 
-global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
-global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
-global.autoreadmessages = 'false'
+global.botname = '💝 Phillo⚡️bot 💝'
+global.premium = 'true'
+global.packname = '💝 Phillo⚡️💝 Created By 💝 Phillo²⁰²³ 💝' 
+global.author = '💝 Phillo²⁰²³ 💝' 
+global.fgsc = 'https://github.com/dinuwah/QUEEN-HENTAI' 
+global.fgyt = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
+global.fgpyp = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
+global.fglog = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg' 
 
-global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
-global.rwait = '⌛'
-global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌' 
-global.xmoji = '🔥' 
+
+global.wait = '*💝 _Waiting  Uploading by 💝 Phillo⚡️ 💝..._*'
+global.rwait = '⏳️'
+global.dmoji = '😁'
+global.done = '👍'
+global.error = '👎' 
+global.xmoji = '🫶' 
 
 global.multiplier = 69 
 global.maxwarn = '3' // máxima advertencias
