@@ -55,15 +55,14 @@ global.APIKeys = { // APIKey Here
   'https://zenzapis.xyz': `${keysxxx}`, 
   'https://api-fgmods.ddns.net': 'fg-dylux'
 }
-
-// Sticker WM
+STICKER_DATA: process.env.STICKER_DATA || "Phillo⚡️",
 global.botname = '💝 Phillo⚡️bot 💝'
 global.premium = 'true'
 global.packname = '💝 Phillo⚡️💝 Created By 💝 Phillo²⁰²³ 💝' 
 global.author = '💝 Phillo²⁰²³ 💝' 
 global.fgsc = 'https://github.com/dinuwah/QUEEN-HENTAI' 
 global.fglog = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg' 
-
+BOT_INFO: process.env.BOT_INFO || 254716838981
 
 global.wait = '*💝 _Waiting  Uploading by 💝 Phillo⚡️ 💝..._*'
 global.rwait = '⏳️'
